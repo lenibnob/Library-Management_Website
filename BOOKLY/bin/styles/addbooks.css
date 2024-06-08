@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E8E4DD;
+}
+
+.title {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #41624F;
+    padding: 10px 20px;
+    position: fixed;
+    width: calc(100% - 40px);
+    height: 5vh;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .circle {
+    width: 10px;
+    height: 18px;
+    background-color: #fafafa;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Preview {
+    color: #41624F;
+    position: relative;
+}
+
+#PreviewTT {
+    position: absolute;
+    height: 51px;
+    width: 360px;
+    top: 153px;
+    left: 500px;
+    font-size: 36px;
+}
+
+#Picture {
+    position: absolute;
+    background-color: #E8E4DD;
+    border: 2px solid #41624F;
+    border-radius: 20px;
+    height: 655px;
+    width: 561px;
+    top: 207px;
+    left: 295px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#Page {
+    background-color: #E8E4DD;
+    border: 2px solid #41624F;
+    border-radius: 10px;
+    height: 655px;
+    width: 561px;
+    position: absolute;
+    left: 895px;
+    top: 207px;
+}
+
+#buttons button {
+    background-color: #E8E4DD;
+    border: 2px solid #41624F;
+    font-weight: bolder;
+    color: #41624F;
+    position: absolute;
+}
+#buttons button:hover {
+    background-color:#375242d5;
+    border-color:#41624F;
+    color:#E8E4DD
+}
+
+#confirm {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    left: 1205px;
+    top: 812px;
+}
+
+#exit {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    left: 1329px;
+    top: 812px;
+}
+
+#import {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    left: 904px;
+    top: 812px;
+}
+
+.former input, .former label {
+    background-color: #E8E4DD;
+    border: 2px solid #41624F;
+    border-radius: 10px;
+    height: 29px;
+    width: 420px;
+    position: absolute;
+    left: 960px;
+    color: #41624F;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.former label {
+    border: none;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+}
+
+#Bname {
+    top: 320px;
+}
+
+#labelBname {
+    top: 290px;
+}
+
+#author {
+    top: 390px;
+}
+
+#labelAuthor {
+    top: 360px;
+}
+
+#ID {
+    top: 460px;
+}
+
+#labelID {
+    top: 430px;
+}
+
+#disc {
+    height: 140px;
+    top: 530px;
+    text-align: justify;
+}
+
+#labelDisc {
+    top: 500px;
+}
+
+#fileInput {
+    display: none;
+}
